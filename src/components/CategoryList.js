@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function CategoryList() {
     return (
-        <div>
+        <div className='container'>
             <table className="table table-dark table-striped">
                 <thead>
                     <tr>

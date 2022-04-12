@@ -1,12 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Profile from '../components/Profile'
+import ProductList from '../components/ProductList'
 
 function Home() {
   return (
     <div>
-      <Navbar />
-      <Profile />
+      <ProductList />
     </div>
   )
 }

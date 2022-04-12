@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function ProductList() {
     return (
-        <div>
+        <div className='container mt-5'>
             <table className="table table-dark table-striped">
                 <thead>
                     <tr>

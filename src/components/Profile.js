@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Profile() {
     return (
-        <div>
+        <div className='container mt-5 text-light'>
             <h3 className='text-warning'>My Profile</h3>
             <div className='row'>
                 <div className='col-3'>
