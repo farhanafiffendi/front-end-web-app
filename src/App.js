@@ -1,18 +1,15 @@
 import React from 'react';
-import Navbar from './components/Navbar'
 import './css/App.css'
-import FormLogin from './components/FormLogin';
-import Carousal from './components/Carousal';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <div className="row">
-        <div className="col-lg-6 col-sm-12"><Carousal /></div>
-        <div className="col-lg-6 col-sm-12"><FormLogin /></div>
-      </div>
+      <Router>
+        <Route path="/profile" component={Profile} />
+      </Router>
     </div>
   );
 }

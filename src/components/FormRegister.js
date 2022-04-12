@@ -2,12 +2,14 @@ import React from 'react'
 import '../css/FormLogin.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const FormLogin = () => {
+const FormRegister = () => {
     return (
         <div>
             <div className="container">
                 <form method=''>
-                    <h2>Login</h2>
+                    <h2>Register</h2>
+                    <label>Name</label>
+                    <input type="text" placeholder="Name"></input>
                     <label>Email</label>
                     <input type="email" placeholder="Email"></input>
                     <label>Password</label>
@@ -19,4 +21,4 @@ const FormLogin = () => {
     )
 }
 
-export default FormLogin
+export default FormRegister
