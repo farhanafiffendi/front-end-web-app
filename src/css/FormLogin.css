@@ -1,0 +1,52 @@
+.container {
+    padding: 20px 25px;
+    width: 340px;
+    /* position: absolute; */
+    margin-top: 100px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    background-color: rgba(56, 54, 54, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.container h2 {
+    color: white;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 4px solid blue;
+}
+
+.container label {
+    text-align: left;
+    color: white;
+}
+
+.container form input {
+    color: white;
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    /* border-bottom: 2px solid blue; */
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.container button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: red;
+}
+
+.container button:hover {
+    color: black;
+}
