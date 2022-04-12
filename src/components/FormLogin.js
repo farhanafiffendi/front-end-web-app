@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/FormLogin.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const FormLogin = () => {
+function FormLogin() {
     return (
         <div>
             <div className="container">

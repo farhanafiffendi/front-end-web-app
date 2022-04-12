@@ -2,7 +2,7 @@ import React from 'react'
 import foto from "../images/image2.jpeg";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const Profile = () => {
+function Profile() {
     return (
         <div>
             <h3 className='text-warning'>My Profile</h3>

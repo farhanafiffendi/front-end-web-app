@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Profile from '../components/Profile'
 
-const Home = () => {
+function Home() {
   return (
     <div>
       <Navbar />
@@ -10,5 +10,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home

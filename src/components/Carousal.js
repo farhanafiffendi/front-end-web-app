@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LogoBesar from '../images/logoBesar.png'
 
-const Carousal = () => {
+function Carousal() {
     return (
         <div>
             <img src={LogoBesar} alt="gambar" className="img-fluid" />

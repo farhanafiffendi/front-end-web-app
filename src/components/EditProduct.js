@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const EditProduct = () => {
+function EditProduct() {
     return (
         <div>
             <form>

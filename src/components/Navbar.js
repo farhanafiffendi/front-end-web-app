@@ -3,7 +3,7 @@ import Logo from "../images/logo.png";
 import '../css/navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const Navbar = () => {
+function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light px-4">
             <div className="container-fluid">
