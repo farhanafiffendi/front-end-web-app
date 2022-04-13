@@ -5,3 +5,7 @@
 .navColor ul li a {
     color: white !important;
 }
+
+.nav-item .nav-link:hover{
+color: red !important;
+}

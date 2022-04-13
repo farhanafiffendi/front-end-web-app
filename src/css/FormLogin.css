@@ -1,20 +1,20 @@
-.container {
+.containerLogin {
     padding: 20px 25px;
     width: 340px;
     /* position: absolute; */
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-    background-color: rgba(56, 54, 54, 0.7);
+    background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
-.container h2 {
+.containerLogin h2 {
     color: white;
 }
 
-.container h1 {
+.containerLogin h1 {
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -22,12 +22,12 @@
     border-bottom: 4px solid blue;
 }
 
-.container label {
+.containerLogin label {
     text-align: left;
     color: white;
 }
 
-.container form input {
+.containerLogin form input {
     color: white;
     width: 100%;
     border: 1px solid white;
@@ -37,7 +37,7 @@
     font-size: 20px;
 }
 
-.container button {
+.containerLogin button {
     width: 100%;
     border: none;
     padding: 10px;
@@ -47,6 +47,6 @@
     background-color: red;
 }
 
-.container button:hover {
+.containerLogin button:hover {
     color: black;
 }

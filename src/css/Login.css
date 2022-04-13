@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.area {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    justify-content: space-around;
+    align-items: center;
+}

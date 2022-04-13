@@ -1,11 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import ProductList from '../components/ProductList'
 
-function Home() {
+function Profile() {
   return (
     <div>
+      <Navbar />
       <ProductList />
     </div>
   )
 }
-export default Home
+export default Profile
