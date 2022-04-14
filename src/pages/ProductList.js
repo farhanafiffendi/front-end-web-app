@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import ProductList from '../components/ProductList'
+import Navbar from '../components//User/NavbarUser'
+import ProductList from '../components/Admin/ProductList'
 
 function Profile() {
   return (

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chatKiri{
+    height: 90vh;
+    border: 1px solid black;
+    background: rgb(0, 0, 0);
+}
+
+.chatKanan{
+    margin-top: -65px;
+    margin-left: -25px;
+    height: 100vh;
+    border-left: 1px solid rgb(185, 185, 185);
+    /* border: 1px solid rgb(206, 206, 206); */
+    background: rgb(0, 0, 0);
+    padding-left: 130px;
+}
+
+.pesan{
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 90px;
+    font-size: 15px;
+    color: white;
+    line-height: 10px;
+    /* border: 1px solid black; */
+}
+
+.chatKiri img{
+    position: relative;
+    right: 70px;
+    top: 50px;
+}

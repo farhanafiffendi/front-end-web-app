@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/Login.css'
-import FormLogin from '../components/FormLogin'
+import FormLogin from '../components/Admin/FormLogin'
 
 function Login() {
     return (

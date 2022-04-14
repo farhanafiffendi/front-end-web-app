@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.productStyle{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.product1{
+  margin-bottom: 15px;
+  background-color: rgb(87, 87, 87);
+  /* border: 1px solid white; */
+  width: 150px;
+  margin-right: 30px;
+  height: 280px;
+  color: white;
+  box-sizing: border-box;
+  object-fit: cover;
+  box-shadow: 0 2.8px 2.2px rgb(87, 87, 87),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.801), 0 12.5px 10px rgb(54, 54, 54),
+    0 22.3px 17.9px rgb(43, 43, 43), 0 41.8px 33.4px rgb(0, 0, 0),
+    0 100px 80px rgb(0, 0, 0);
+}
+
+.product1:hover img {
+  transform: scale(1.1);
+}
+
+.product1 img{
+  transition: all 0.3s ease-in-out;
+}
+
+.klik {
+  background-color: #009788;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+span{
+    color: orangered;
+}
+

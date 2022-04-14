@@ -4,19 +4,33 @@ import { Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductList from './pages/ProductList';
 import Profil from './pages/Profil';
-// import Login from './pages/Login';
-import Register from './pages/Register';
-import UserShop from './components/UserShop'
+import Login from './pages/Login';
+// import Register from './pages/Register';
+import Shop from './pages/Shop';
+import Chat from './components/User/Chat';
+import Notfound from './pages/NotFound';
+// import Category from './pages/Category';
 
 
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<UserShop />} />
-      <Route path='/profil' element={<Profil />} />
-      <Route path='/product' element={<ProductList />} />
-      <Route path='/register' element={<Register />} />
+      <Route exact path='/' element={<ProductList />} />
+      <Route exact path='/profil' element={<Profil />} />
+      <Route exact path='/logout' element={<Login />} />
+      <Route exact path='/complain' element={<Chat />} />
+      <Route exact path='*' element={<Notfound />} />
+      <Route exact path='/product' element={<Shop />} />
+
+      {/* private route */}
+      {/* <Route path="/" element={<Login />}>
+        <Route path="/listproduct" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/users/:id" element={<DetailUser />} />
+      </Route> */}
     </Routes>
+
+
   );
 }
 

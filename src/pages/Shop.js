@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../components/User/NavbarUser';
-import Profil from '../components/User/Profile';
+import UserShop from '../components/User/UserShop';
 
-function Profile() {
+function Shop() {
     return (
         <div>
             <Navbar />
-            <Profil />
+            <UserShop />
         </div>
     )
 }
 
-export default Profile
+export default Shop
