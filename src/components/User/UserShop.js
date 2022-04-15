@@ -20,17 +20,17 @@ function UserShop() {
     <>
       <div className="menu-tabs container mt-5">
         <div className="menu-tab d-flex justify-content-around">
-          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('Hardware')}>Hardware</button>
-          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('Device')}>Device</button>
-          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('Accessories')}>Accessories</button>
-          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('Design')}>Design</button>
+          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('KomponenLaptop')}>Komponen Laptop/Dekstop</button>
+          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('Laptop')}>Laptop</button>
+          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('KeyboardMouse')}>Keyboard Mouse</button>
+          <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => filterItem('Printer')}>Printer</button>
           <button className={`btn btn-warning klik ${cssModule.klik}`} onClick={() => setItems(DataDummy)}>All</button>
         </div>
       </div>
 
       <div className="container d-flex flex-wrap mb-3 mt-5">
         {items.map((elem) => {
-          const { id, name, image, price, stok } = elem;
+          const { name, image, price, stok } = elem;
 
           return (
             <div>
