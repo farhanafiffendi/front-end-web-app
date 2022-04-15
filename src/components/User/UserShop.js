@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import cssModule from '../../css/Product.module.css'
 import DataDummy from '../Data/DataDummy'
+import { Link } from "react-router-dom";
 
 function UserShop() {
 
@@ -36,7 +37,7 @@ function UserShop() {
               <div className={cssModule.product1}>
                 <img src={image} width={'100%'} height={'200px'} className='img-fluid' alt={name} />
                 <div>
-                  <p><span>{name}</span></p>
+                  <Link to='/'><p><span>{name}</span ></p></Link>
                   <p>{price}</p>
                   <p>Stok: {stok}</p>
                 </div>
@@ -47,7 +48,7 @@ function UserShop() {
           )
         })
         }
-      </div>
+      </div >
 
     </>
   )

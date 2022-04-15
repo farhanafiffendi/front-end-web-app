@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // import mouse from './images/mouse.png'
 // import keyboard from './images/keyboard.png'
 
+
 const data = [
     {
         id: 1,
@@ -58,7 +59,7 @@ function ProductList() {
                         return (
                             <tr>
                                 <th scope="row">{item.id}</th>
-                                <td><img src={item.image} width={'40px'} className='img-fluid' alt="" /></td>
+                                <td><img src={item.image} width={'60px'} className='img-fluid' alt="" /></td>
                                 <td>Mark</td>
                                 <td>{item.description.slice(0, 40) + '...'}</td>
                                 <td>{item.price}</td>
