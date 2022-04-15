@@ -6,33 +6,58 @@ import cssModules from '../../css/chat.module.css';
 
 function Chat() {
     return (
-        <div class="container-fluid">
+        <div class="container-fluid text-light">
             <Navbar />
             <div class="row">
                 <div class="col-12">
-                    <div class="row ">
-                        <div class="col-lg-3">
-                            <div class={cssModules.chatKiri}>
-                                <div class={cssModules.pesan}>
+                    <div class="row">
+                        <div class={`col-3 kiri ${cssModules.kiri}`}>
+                            <div class={`gambar1 d-flex flex-column ${cssModules.gambar1}`}>
+                                <div class="baris1 d-flex">
                                     <img src={chat} class="img-fluid" alt="" />
-                                    <h4>Admin</h4>
-                                    <p>Yes, Is there anything I can help</p>
-
+                                    <div class={`chat d-flex flex-column ${cssModules.chat}`}>
+                                        <h4>Farhan</h4>
+                                        <p>Halo, can you help me?</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-9">
-                            <div class={`chatKanan text-light d-flex justify-content-end flex-column align-items-start ${cssModules.chatKanan} `}>
-                                <img src={chat} alt="" />
-                                <h4>Admin</h4>
-                                <p>Yes, Is there anything I can help</p>
-                                <form style={{ width: '80%' }}>
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label"></label>
-                                        <input type="email" placeholder="Send Message" class="form-control"
-                                            id="exampleInputEmail1" aria-describedby="emailHelp" />
+                        <div class={`col-9 kanan d-flex align-items-center flex-column-reverse ${cssModules.kanan}`}>
+                            <form style={{ width: '800px' }}>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label"></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Send Message" />
+                                </div>
+                            </form>
+                            <div class="chat2 align-self-start">
+                                <div class={`gambar1 d-flex flex-column-reverse ${cssModules.gambar1}`}>
+                                    <div class="baris1 d-flex">
+                                        <img src={chat} class="img-fluid" alt="" />
+                                        <div class={`chat d-flex flex-column ${cssModules.chat}`}>
+                                            <h4>Farhan</h4>
+                                            <p>Halo, can you help me?</p>
+                                        </div>
                                     </div>
-                                </form>
+                                </div>
+                            </div>
+                            <div class="chat3 align-self-end me-5">
+                                <div class={`gambar1 d-flex flex-column-reverse ${cssModules.gambar1}`}>
+                                    <div class="baris1 d-flex mt-3">
+                                        <img src={chat} class="img-fluid" alt="" />
+                                        <div class={`chat d-flex flex-column ${cssModules.chat}`}>
+                                            <h4>Farhan</h4>
+                                            <p>Halo, can you help me?</p>
+                                        </div>
+                                    </div>
+                                    <div class="baris1 d-flex">
+                                        <img src={chat} class="img-fluid" alt="" />
+                                        <div class={`chat d-flex flex-column ${cssModules.chat}`}>
+                                            <h4>Farhan</h4>
+                                            <p>Halo, can i help you?</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

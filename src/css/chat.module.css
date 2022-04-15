@@ -4,35 +4,40 @@ body{
     box-sizing: border-box;
 }
 
-.chatKiri{
-    height: 90vh;
-    border: 1px solid black;
-    background: rgb(0, 0, 0);
+.kiri {
+    border: 1px solid rgb(116, 116, 116);
+    height: 89vh;
+    box-sizing: border-box;
 }
 
-.chatKanan{
-    margin-top: -65px;
-    margin-left: -25px;
-    height: 100vh;
-    border-left: 1px solid rgb(185, 185, 185);
-    /* border: 1px solid rgb(206, 206, 206); */
-    background: rgb(0, 0, 0);
-    padding-left: 130px;
+.kanan {
+    border: 1px solid rgb(116, 116, 116);
+    height: 89vh;
+    box-sizing: border-box;
 }
 
-.pesan{
-    width: 100%;
-    margin-left: 80px;
+.gambar1{
     margin-top: 10px;
-    height: 90px;
-    font-size: 15px;
-    color: white;
-    line-height: 10px;
-    /* border: 1px solid black; */
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    padding: 6px;
 }
 
-.chatKiri img{
-    position: relative;
-    right: 70px;
-    top: 50px;
+.chat{
+    line-height: 20px;
+    margin-left: 10px;
+    word-wrap: break-word;
+}
+
+.gambar1 img{
+    margin-top: 5px;
+    max-height: 60%;
+}
+
+
+.kotak{
+    width: 100px;
+    width: 40px;
+    border: 1px solid black;
 }
