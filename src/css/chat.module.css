@@ -5,15 +5,18 @@ body{
 }
 
 .kiri {
-    border: 1px solid rgb(116, 116, 116);
+    border-right: 1px solid rgb(116, 116, 116);
+    border-top: 1px solid rgb(116, 116, 116);
     height: 89vh;
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 .kanan {
-    border: 1px solid rgb(116, 116, 116);
+    border-top: 1px solid rgb(116, 116, 116);
     height: 89vh;
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 .gambar1{
@@ -22,6 +25,12 @@ body{
     width: 100%;
     /* border: 1px solid rgb(255, 255, 255); */
     padding: 6px;
+}
+
+.gambar1 p{
+    background-color: rgb(87, 87, 87);
+    padding: 5px;
+    border-radius: 50px;
 }
 
 .chat{

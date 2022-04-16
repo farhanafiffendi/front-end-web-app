@@ -16,7 +16,7 @@ function Chat() {
                                 <div class="baris1 d-flex">
                                     <img src={chat} class="img-fluid" alt="" />
                                     <div class={`chat d-flex flex-column ${cssModules.chat}`}>
-                                        <h4>Farhan</h4>
+                                        <h4>Afif</h4>
                                         <p>Halo, can you help me?</p>
                                     </div>
                                 </div>
@@ -35,26 +35,22 @@ function Chat() {
                                     <div class="baris1 d-flex">
                                         <img src={chat} class="img-fluid" alt="" />
                                         <div class={`chat d-flex flex-column ${cssModules.chat}`}>
-                                            <h4>Farhan</h4>
+                                            <h4>Afif</h4>
                                             <p>Halo, can you help me?</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="chat3 align-self-end me-5">
-                                <div class={`gambar1 d-flex flex-column-reverse ${cssModules.gambar1}`}>
+                                <div class={`gambar1 d-flex align-content-end flex-column-reverse ${cssModules.gambar1}`}>
                                     <div class="baris1 d-flex mt-3">
-                                        <img src={chat} class="img-fluid" alt="" />
                                         <div class={`chat d-flex flex-column ${cssModules.chat}`}>
-                                            <h4>Farhan</h4>
-                                            <p>Halo, can you help me?</p>
+                                            <p>Yes, sir</p>
                                         </div>
                                     </div>
                                     <div class="baris1 d-flex">
-                                        <img src={chat} class="img-fluid" alt="" />
                                         <div class={`chat d-flex flex-column ${cssModules.chat}`}>
-                                            <h4>Farhan</h4>
-                                            <p>Halo, can i help you?</p>
+                                            <p>What's a Problem?</p>
                                         </div>
                                     </div>
                                 </div>

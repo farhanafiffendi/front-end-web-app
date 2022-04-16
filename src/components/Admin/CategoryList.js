@@ -1,26 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import data from '../Data/DataDummy'
 
-const data = [
-    {
-        id: 1,
-        category: "Mouse"
-    },
-    {
-        id: 2,
-        category: "Keyboard"
-    },
-    {
-        id: 3,
-        category: "Laptop"
-    },
-    {
-        id: 4,
-        category: "Webcam"
-    },
-]
-
-function CategoryList(props) {
+function CategoryList() {
     return (
 
         <div className='container'>

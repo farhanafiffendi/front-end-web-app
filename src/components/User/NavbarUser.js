@@ -18,7 +18,7 @@ function NavbarUser() {
                             <Link className={`nav-link active klik ${cssModules.klik}`} aria-current="page" to='/complain'>Complain</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/profil'>Profil</Link>
+                            <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/productlist'>Category</Link>
                         </li>
                         <li className="nav-item">
                             <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/product'>Product</Link>

@@ -1,7 +1,7 @@
 import React from 'react'
-import cssModule from '../css/register.module.css'
+import cssModule from '../../css/register.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import LogoBesar from './images/logoBesar.png';
+import LogoBesar from '../images/logoBesar.png';
 import { Link } from "react-router-dom";
 
 function FormRegister() {
@@ -14,7 +14,7 @@ function FormRegister() {
                             <img src={LogoBesar} alt="gambar" className="img-fluid" />
                             <h1>Easy, Fast and Reliable</h1>
                             <p>Go shopping for merchandise, just go to dumb merch shopping. the biggest merchandise in Indonesia</p>
-                            <Link to='/' className='btn btn-primary me-3'>Login</Link>
+                            <Link to='/login' className='btn btn-primary me-3'>Login</Link>
                             <Link to='/register' className='btn btn-success'>Register</Link>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ function FormRegister() {
                                 <input type="email" placeholder="Email" />
                                 <label>Password</label>
                                 <input type="password" placeholder="Password" />
-                                <button type="submit">Login</button>
+                                <button type="submit">Register</button>
                             </form>
                         </div>
                     </div>
