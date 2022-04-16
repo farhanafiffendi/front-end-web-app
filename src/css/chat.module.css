@@ -9,14 +9,16 @@ body{
     border-top: 1px solid rgb(116, 116, 116);
     height: 89vh;
     box-sizing: border-box;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .kanan {
     border-top: 1px solid rgb(116, 116, 116);
     height: 89vh;
     box-sizing: border-box;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .gambar1{

@@ -43,7 +43,7 @@ function Chat() {
                             </div>
                             <div class="chat3 align-self-end me-5">
                                 <div class={`gambar1 d-flex align-content-end flex-column-reverse ${cssModules.gambar1}`}>
-                                    <div class="baris1 d-flex mt-3">
+                                    <div class="baris1 d-flex">
                                         <div class={`chat d-flex flex-column ${cssModules.chat}`}>
                                             <p>Yes, sir</p>
                                         </div>
