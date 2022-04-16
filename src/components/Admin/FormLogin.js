@@ -11,7 +11,7 @@ function FormLogin() {
     const navigate = useNavigate();
 
     const handleNavigateToSignIn = () => {
-        navigate("/profil");
+        navigate("/");
     };
 
     return (

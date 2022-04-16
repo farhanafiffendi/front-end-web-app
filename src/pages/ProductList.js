@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components//User/NavbarUser'
+import NavbarUser from '../components/User/NavbarUser'
 import ProductList from '../components/Admin/ProductList'
 
-function Profile() {
+function Product() {
   return (
     <div>
-      <Navbar />
+      <NavbarUser />
       <ProductList />
     </div>
   )
 }
-export default Profile
+export default Product
