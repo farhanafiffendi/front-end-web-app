@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import data from '../Data/DataDummy'
 import { Modal, Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom'
 
 
 function CategoryList() {
@@ -10,6 +11,12 @@ function CategoryList() {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const navigate = useNavigate();
+
+    const handleCategory = () => {
+        navigate("/category/edit-category");
+    };
 
 
     return (
@@ -45,7 +52,8 @@ function CategoryList() {
                                 <tr>
                                     <th scope="row">{item.id}</th>
                                     <td>{item.category}</td>
-                                    <td><button className="btn btn-success">Edit</button> <button className="btn btn-danger" onClick={handleShow}>Delete</button></td>
+                                    <td><button className="btn btn-success" onClick={handleCategory}>Edit</button>
+                                        <button className="btn btn-danger" onClick={handleShow}>Delete</button></td>
                                 </tr>
                             )
                         })}

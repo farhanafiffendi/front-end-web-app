@@ -59,7 +59,8 @@ function ProductList() {
                                     <td>{`${description}`.slice(0, 40) + '...'}</td>
                                     <td>{price}</td>
                                     <td>{stok}</td>
-                                    <td><button className="btn btn-success" onClick={handleProduct}>Edit</button> <button className="btn btn-danger" onClick={handleShow}>Delete</button></td>
+                                    <td><button className="btn btn-success" onClick={handleProduct}>Edit</button>
+                                        <button className="btn btn-danger" onClick={handleShow}>Delete</button></td>
                                 </tr>
                             )
                         })}

@@ -13,6 +13,7 @@ import Category from './pages/Category';
 import Detail from './pages/Detail';
 import PrivateRoute from './pages/PrivateRoute';
 import UpdateProduct from './pages/UpdateProduct';
+import UpdateCategory from './pages/UpdateCategory';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/productlist" element={<Product />} />
         <Route path="/productlist/edit-product" element={<UpdateProduct />} />
         <Route path="/category" element={<Category />} />
+        <Route path="/category/edit-category" element={<UpdateCategory />} />
       </Route>
     </Routes>
 
