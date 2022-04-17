@@ -1,11 +1,11 @@
 import React from 'react'
-import NavbarUser from '../components/User/NavbarUser'
+import NavAdmin from '../components/Admin/NavAdmin'
 import ProductList from '../components/Admin/ProductList'
 
 function Product() {
   return (
     <div>
-      <NavbarUser />
+      <NavAdmin />
       <ProductList />
     </div>
   )

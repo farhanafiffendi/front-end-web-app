@@ -21,12 +21,6 @@ function NavbarUser() {
                             <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/profile'>Profile</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/category'>Category</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/productlist'>Product</Link>
-                        </li>
-                        <li className="nav-item">
                             <Link className={`nav-link klik ${cssModules.klik}`} aria-current="page" to='/logout'>Logout</Link>
                         </li>
                     </ul>

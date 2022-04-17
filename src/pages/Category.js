@@ -1,11 +1,11 @@
 import React from 'react'
 import CategoryList from '../components/Admin/CategoryList'
-import NavbarUser from '../components/User/NavbarUser'
+import NavAdmin from '../components/Admin/NavAdmin'
 
 const Category = () => {
     return (
         <div>
-            <NavbarUser />
+            <NavAdmin />
             <CategoryList />
         </div>
     )

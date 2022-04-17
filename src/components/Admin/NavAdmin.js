@@ -1,10 +1,10 @@
 import React from 'react'
-import Logo from "./images/logo.png";
+import Logo from "../images/logo.png";
 import cssModules from '../../css/navbar.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from "react-router-dom";
 
-function NavbarUser() {
+function NavAdmin() {
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${cssModules.navbar}`}>
             <div className="container">
@@ -34,4 +34,4 @@ function NavbarUser() {
 }
 
 
-export default NavbarUser;
+export default NavAdmin;

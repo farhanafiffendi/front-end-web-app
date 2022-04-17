@@ -5,12 +5,22 @@ function EditProduct() {
     return (
         <div>
             <form>
-                <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label text-light">Email address</label>
+                <div className="mb-3 container">
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label text-light">Image</label>
+                        <input class="form-control" type="file" id="formFile" />
+                    </div>
+                    <label for="exampleInputEmail1" className="form-label text-light">Name</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
-                    <div id="emailHelp" className="form-text text-light">We'll never share your email with anyone else.</div>
+                    <label for="exampleInputEmail1" className="form-label text-light">Description</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                    <label for="exampleInputEmail1" className="form-label text-light">Price</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                    <label for="exampleInputEmail1" className="form-label text-light">Stok</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                    <div id="emailHelp" className="form-text text-light"></div>
+                    <button type="submit" className="btn btn-success">Submit</button>
                 </div>
-                <button type="submit" className="btn btn-success">Submit</button>
             </form>
         </div>
     )

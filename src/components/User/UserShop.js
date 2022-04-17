@@ -30,14 +30,14 @@ function UserShop() {
 
       <div className="container d-flex flex-wrap mt-5">
         {items.map((elem) => {
-          const { name, image, price, stok } = elem;
+          const { id, name, image, price, stok } = elem;
 
           return (
             <div>
               <div className={cssModule.product1}>
-                <img src={image} width={'100%'} height={'200px'} className='img-fluid' alt={name} />
+                <img src={require(`../images/${image}`)} width={'100%'} height={'200px'} className='img-fluid' alt={name} />
                 <div>
-                  <Link to='/'><p><span>{name}</span ></p></Link>
+                  <Link to={`/detail/${id}`}><p><span>{name}</span ></p></Link>
                   <p>{price}</p>
                   <p>Stok: {stok}</p>
                 </div>
