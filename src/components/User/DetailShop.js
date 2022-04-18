@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 // import mouse from '../images/mouse.png'
-import DataDummy from '../Data/DataDummy'
+import { DataDummy } from '../Data/DataDummy'
 import { useParams } from 'react-router-dom'
 
 function DetailShop() {

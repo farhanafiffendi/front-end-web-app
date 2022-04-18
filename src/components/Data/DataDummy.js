@@ -1,4 +1,4 @@
-const DataDummy = [
+export const DataDummy = [
     {
         id: 0,
         image: "mouse.png",
@@ -68,7 +68,7 @@ const DataDummy = [
     {
         id: 5,
         image: "mouse2.jpg",
-        name: "Keyboard",
+        name: "Mouse Gaming",
         category: "KeyboardMouse",
         spesifikasi1: "Wireless Mouse",
         spesifikasi2: "Konektivitas wireless 2.4 GHz",
@@ -92,7 +92,7 @@ const DataDummy = [
     {
         id: 7,
         image: "printer.jpg",
-        name: "Keyboard",
+        name: "Printer",
         category: "Printer",
         spesifikasi1: "Wireless Mouse",
         spesifikasi2: "Konektivitas wireless 2.4 GHz",
@@ -105,6 +105,3 @@ const DataDummy = [
 
 ];
 
-
-
-export default DataDummy;

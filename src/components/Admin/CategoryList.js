@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import data from '../Data/DataDummy'
+import { DataDummy } from '../Data/DataDummy'
 import { Modal, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom'
 
@@ -47,7 +47,7 @@ function CategoryList() {
                         </tr>
                     </thead>
                     <tbody>
-                        {data.map((item) => {
+                        {DataDummy.map((item) => {
                             return (
                                 <tr>
                                     <th scope="row">{item.id}</th>

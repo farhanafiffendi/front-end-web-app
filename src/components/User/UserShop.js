@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import cssModule from '../../css/Product.module.css'
-import DataDummy from '../Data/DataDummy'
+import { DataDummy } from '../Data/DataDummy'
 import { Link } from "react-router-dom";
 
 function UserShop() {

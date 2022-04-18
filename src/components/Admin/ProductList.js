@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import product from '../Data/DataDummy'
+import { DataDummy } from '../Data/DataDummy'
 import { useNavigate } from "react-router-dom";
 import { Modal, Button } from 'react-bootstrap';
 import React, { useState } from 'react'
@@ -49,7 +49,7 @@ function ProductList() {
                         </tr>
                     </thead>
                     <tbody>
-                        {product.map((item) => {
+                        {DataDummy.map((item) => {
                             const { id, image, name, price, stok, description } = item;
                             return (
                                 <tr>
