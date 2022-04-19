@@ -7,7 +7,8 @@ import { useParams } from 'react-router-dom'
 function DetailShop() {
 
     const params = useParams()
-    const index = params.id
+    const identifier = params.id - 1
+    const index = identifier
 
     return (
         <div className="container mt-5 text-light">
